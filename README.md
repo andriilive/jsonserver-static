@@ -1,3 +1,23 @@
+# JSON Server Static
+
+The idea: public static json-api by default
+
+Instead of using a db.json file, lets provide a folder with json files and folders for collections.
+
+## TODO
+
+- [ ] db.js entrypoint
+- [ ] Data folder support
+  - [ ] Files
+  - [ ] Folders for collections
+- [ ] Lowdb ??
+- [ ] Routes support
+- [ ] Middlewares support
+- [ ] Static template
+- [ ] Customizable template
+  - [ ] Readme.md -> index.html
+  - [ ] Beautiful json-api file structure
+
 ## Deploy JSON Server to Vercel
 
 A template to deploy [JSON Server](https://github.com/typicode/json-server) to [Vercel](https://vercel.com), allow you to run fake REST API online!
